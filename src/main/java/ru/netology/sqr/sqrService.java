@@ -6,13 +6,13 @@ public class sqrService {
         int counter = 0;
         for (int i = 10; i <= 99 ; i++) {
             if (i * i >= down && i * i <= up) {
-
+                counter = counter + 1;
 
             }
 
 
         }
-return 0;
+return counter;
 
     }
 

@@ -11,7 +11,7 @@ class sqrServiceTest {
         sqrService sqrService = new sqrService();
 
         int expected = 3;
-                int actual = sqrService.sqrt(200,300);
-        assertEquals(expected,actual);
+        int actual = sqrService.sqrt(200, 300);
+        assertEquals(expected, actual);
     }
 }
