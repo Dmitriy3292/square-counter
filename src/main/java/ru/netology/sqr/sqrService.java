@@ -1,7 +1,7 @@
 package ru.netology.sqr;
 
 public class sqrService {
-    public int sqrt(int down, int up) {
+    public int squareСounter(int down, int up) {
 
         int counter = 0;
         for (int i = 10; i <= 99 ; i++) {
